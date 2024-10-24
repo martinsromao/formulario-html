@@ -22,8 +22,46 @@
             <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
 
         
-      </div><!-- main-contende -->
       
+      <form enctype="multipart/form-data" >
+        <fieldset class="chid-info">
+          <legend>Informações do Aluno</legend>
+          <div class="input-wrapper">
+              <label for="fullname">Nome completo</label>
+              <input type="text" name="nome" id="fullname" placeholder="qual nome da criança?">
+               
+          </div>
+          <div class="input-wrapper">
+            <label for="fulldata">Data de nacimento</label>
+            <input type="date" name="fulldata" id="fulldata">
+          </div>
+          <div class="select-wrapper">
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo">
+              <option value=""></option>
+              <option value="masculine">masculino</option>
+              <option value="famale">feminino</option>
+              <option value="outros">prefiro não reponder</option>
+            </select>
+          </div>
+          <div class="texteare-wrapper">
+            <label for="info-medica">Informações médicas</label>
+            <textarea name="info-medica" id="info-medica" placeholder="informação  médica " cols="30" rows="10"></textarea>
+
+          </div>
+          <div class="file-wrapper">
+            <label for="certidao-file">Certidão de nascimento</label>
+            <input type="file" name="certidao-file" id="certidao-file" >
+            <img src="assets/icones/cloud-upload.svg" alt="">
+            <p>clique aqui</p>
+          </div>
+          
+
+        </fieldset>
+
+
+      </form>
+    </div><!-- main-contende -->
     </main>
     <aside>
       <div class="aside-contende">
