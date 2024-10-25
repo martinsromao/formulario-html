@@ -1,6 +1,6 @@
 :root{
  --font-famaly:"Poppins", sans-serif;
---text: 400 1rem/1.5 var(--font-famaly);
+--text-sm: 400 1rem/1.5 var(--font-famaly);
 --text:  400 875/1.4 var(--font-famaly);
 
 --text-primary:  #292524 ;

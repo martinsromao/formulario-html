@@ -1,0 +1,36 @@
+
+fieldset{
+  border: none;
+  display: grid;
+  gap: 1.5rem;
+  div{
+    display: grid;
+    
+  }
+}
+legend{
+  font: 600  16px/1.25 var(--font-famaly);
+  margin-bottom: 1.5rem;
+}
+input,textarea,select{
+  appearance: none;
+  width: 100%;
+  border-radius: .5rem;
+  padding: .75rem 1rem;
+  border: 1px  solid var(--stroke-default);
+  font: var(--text-sm);
+
+}
+label{
+  color: var(--text-secondary);
+  display: block;
+  margin-block: .25rem;
+  font: var(--text);
+}
+input:focus,
+textarea:focus,
+section:focus{
+  outline: .25rem solid var(--surface-secondary);
+  border: .125rem solid  var(--stroke-highlight);
+  outline-offset: .1px;
+}
