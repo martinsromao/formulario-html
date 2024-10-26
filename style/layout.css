@@ -35,6 +35,7 @@
     aside{
       background-color:var(--surface-secondary);
       padding: 4rem;
+      overflow: hidden;
     .aside-contende{
      max-width: 31rem;
       height: 100%;}

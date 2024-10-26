@@ -55,6 +55,6 @@ input[type='date']::-webkit-calendar-picker-indicator {
   opacity: 0; /* Torna o indicador invisível */
 }
 select{
-  background: url(../assets/icones/arrow-down-01.svg)  no-repeat right  center/contain;
-
+  background: url(../assets/icones/arrow-down-01.svg)  no-repeat right    ;
+ padding-right: 1rem;
 }
