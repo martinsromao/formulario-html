@@ -29,7 +29,7 @@ label{
 }
 input:focus,
 textarea:focus,
-section:focus{
+select:focus{
   outline: .25rem solid var(--surface-secondary);
   border: .125rem solid  var(--stroke-highlight);
   outline-offset: .1px;
@@ -57,4 +57,8 @@ input[type='date']::-webkit-calendar-picker-indicator {
 select{
   background: url(../assets/icones/arrow-down-01.svg)  no-repeat right    ;
  padding-right: 1rem;
+ & option:hover{
+  background-color: black;
+ }
+
 }
