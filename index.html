@@ -71,7 +71,7 @@
             <label for="endereço">CEP</label>
             <input type="number"  name="endereço" id="endereço" placeholder="01234-567">
             </div>
-            <section class="meio-input grid grid-tenplad">
+            <section class="meio-input grid grid-tenplad gap">
             <div class="input-wrapper">
                 <label for="rua">Rua</label>
                 <input type="text" name="rua"  id="rua" placeholder="Rua das Flores">
@@ -82,7 +82,7 @@
                </div>
               </section><!-- meio-input -->
               
-               <section class="meio-input grid grid-tenplad">
+               <section class="meio-input grid grid-tenplad gap">
                <div class="input-wrapper">
                 <label for="city">Cidade</label>
                 <input type="text" name="city"  id="city" placeholder="Rio de Janeiro">
@@ -95,6 +95,39 @@
               
    
         </fieldset>
+
+        <fieldset class="info-respo">
+          <legend>Informações do responsável</legend>
+          <div class="input-wrapper">
+            
+            <label for="nome-respo">Nome do responsável</label>
+            <input type="text" name="nome-respo"  id="nome-respo" placeholder="João da Silva" required>
+            <small>Principal responsável legal e contato de emergência</small>
+          </div>
+          <div class="input-wrapper">
+            
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone"  id="telefone" placeholder="(10) 9 8765-4321" required>
+            
+          </div>
+          <div class="input-wrapper">
+            <label for="info-email">E-mail</label>
+            <input type="email" name="info-email" id="info-email" placeholder="papailegal123" required>
+            <div class="erro">
+              <img src="assets/icones/alert-circle.svg" alt="img de erro">
+              <span>Insira um e-mail válido</span>
+            </div>
+          </div>
+
+        </fieldset>
+
+
+
+
+
+
+
+
 
 
       </form>
