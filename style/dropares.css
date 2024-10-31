@@ -40,9 +40,12 @@
     &:focus{
       border-color: var(--stroke-highlight);
     }
-    &:invalid  {
+    /* &:invalid  {
       border-color: var(--semantic-error);
      
+    } */
+    &[disabled]{
+      border-color: #A8A29E;
     }
     &[required] + .erro{
       display: flex;
