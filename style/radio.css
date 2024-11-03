@@ -57,3 +57,12 @@ cursor: pointer;
  
  }
 }
+.radio-wrapper2{
+  display: grid;
+  grid-template-columns: repeat(4, 120px); 
+  gap: 1rem;
+  .radio-interno{
+    border: 1px solid var(--stroke-default);
+  }
+ 
+}
